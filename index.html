@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F3 Module Test</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="current-image-container" class="imageContainer"></div>
+        <div class="searchPicture">
+            <div class="heading">Search for a Picture of the Day</div>
+            <div class="searchForm">
+                <form id="search-form" action="">
+                    <label for="search-input">Select a date:</label>
+                    <input id="search-input" type="date">
+                    <input type="submit" value="Search">
+                </form>  
+            </div>
+        </div>
+        <div class="searchHistory">
+            <div class="heading">Previous Searches</div>
+            <ul id="search-history">
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
